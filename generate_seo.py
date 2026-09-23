@@ -12,7 +12,7 @@ prompt = "Hãy đóng vai trò chuyên gia YouTube SEO, hãy tạo cho tôi: 1. 
 
 # Gọi mô hình Gemini xử lý
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+  model="gemini-1.5-flash",
     contents=prompt,
 )
 
